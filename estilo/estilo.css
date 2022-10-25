@@ -1,0 +1,103 @@
+/*
+ Ricardo Marqués Garay
+	UO270160
+*/
+
+
+/* especificidad: 001 */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+/* especifidad: 001 */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+	background-color : white;
+	color: red;
+}
+
+/* especifidad: 001 */
+h2,
+h3 {
+    margin-left: 2em;
+	background-color : white;
+	color : red;
+}
+
+/* especifidad: 001 */
+h1,
+h2,
+h3 {
+    text-decoration: underline;
+}
+
+/* especifidad: 001 */
+p {
+    margin-left: 2em;
+    line-height: 2em;
+    font-size: large;
+}
+
+/* especifidad: 001 */
+header,
+section,
+footer {
+    background-color: white;
+    color: black;
+}
+
+/* especifidad: 001 */
+li {
+    list-style: none;
+    padding: 1em 2em;
+    border: 0.3em solid rgb(0, 0, 0);
+    border-spacing: 1em 0.5em;
+}
+/* especifidad: 001 */
+table {
+    padding: 1em 1em;
+}
+
+/* especifidad: 001 */
+
+th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: large;
+}
+
+/* especifidad: 001 */
+td {
+    background-color: white;
+    color: black;
+    border: 0.1em solid rgb(0, 0, 0);
+    border-spacing: 0.5em 0.5em;
+    font-size: 1em;
+	
+}
+
+/* especifidad: 001 */
+dt {
+    font-weight: bold;
+    margin-left: 1em;
+	background-color: black;
+    color: white;
+}
+
+/* especifidad: 001 */
+dd{	
+	font-weight: bold;
+    background-color: white;
+    color: #000000;
+}
+
+/* especifidad: 002 */
+footer a {
+    margin-left: 3em;
+}

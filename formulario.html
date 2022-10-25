@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+	
+	<meta name ="author" content ="Ricardo Marqués Garay" />
+	<meta name ="description" content ="Formulario retroalimentativo sobre la pagina" />
+	<meta name ="keywords" content ="Preguntas" />
+	<meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <title> Formulario </title>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>TypeScript </h1>
+    </header>
+
+        <nav>
+            <ul> 
+                <li><a title = "History" accesskey = "H" href = "index.html" > Historia </a>  </li>
+                <li><a title = "Types" accesskey = "T" href = "tipos.html" > Tipos </a> </li>
+                <li><a title = "Compare" accesskey = "C" href = "comparativa.html" > Comparacion </a> </li>
+                <li><a title = "Test" accesskey = "F" href = "formulario.html" > Formulario</a> </li>
+            </ul>
+        </nav>
+
+    
+
+
+    <aside>
+        <p>
+            <img src="multimedia/formulario.png"  alt="Formulario"  >
+        </p>
+    </aside>
+
+        <main>
+            <section>
+                <h2>Formulario al usuario</h2>
+                <p>
+                    Aqui te planteamos una serie de preguntas con el fin de mejorar el sitio web. Gracias por tu participación.
+                </p>
+            </section>
+        
+            <section>
+                <h2>Preguntas:</h2>
+                <form>
+                    <fieldset>
+                        <legend>Datos de la persona </legend>
+                        <p><label>Nombre y apellidos: <input></label></p>
+                        <p><label>Dirección de Email <input></label></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend> ¿Que te ha parecido más interesante? </legend>
+                        <p><label> a) <input type=radio name=Historia value=historia> La breve historia sobre el lenguaje </label></p>
+                        <p><label> b) <input type=radio name=tipos value=tipos> La expliacion de los tipos basicos del lenguaje </label></p>
+                        <p><label> c) <input type=radio name=comparativa value=comparativa> La comparativa con su "padre" JavaScript </label></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend> ¿Que cosas cambiarias de la página? </legend>
+                        <p><label> 1) <input type=checkbox id="Bv" value= "first_cb"> Breve Historia </label></p>
+                        <p><label> 2) <input type=checkbox id="db" value= "second_cb"> Tipos de datos básicos </label></p>
+                        <p><label> 3) <input type=checkbox id="comp" value= "third_cb"> Comparativa con JavaScript </label></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>¿Cuanto tiempo has estado en la página?</legend>
+                        <p><label>Tiempo: <input type=time name =tiempo> Ej: 1:30</label></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>¿Del 1 al 10 como calificarias la pagina?</legend>
+                        <p><label> Puntuación: <input value=0 type=number name =puntuacion min =0 max = 10> 0-10</label></p>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+    
+    <footer>
+        <p>
+            Muchas gracias por tu tiempo.
+        </p>
+    </footer>
+        
+</body>
+</html>

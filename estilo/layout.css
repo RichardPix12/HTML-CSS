@@ -1,0 +1,46 @@
+/*
+ Ricardo Marqués Garay
+	UO270160
+*/
+
+
+
+/* especifidad: 001 */
+body {
+    display: grid;
+    grid-template-areas: 'header header' 'nav nav' 'main aside' 'footer footer';
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 0.5fr max-content 1fr;
+}
+/* especifidad: 001 */
+header {
+    grid-area: header;
+}
+/* especifidad: 001 */
+nav {
+    grid-area: nav;
+}
+/* especifidad: 001 */
+aside {
+    grid-area: aside;
+}
+/* especifidad: 001 */
+main {
+    grid-area: main;
+}
+/* especifidad: 001 */
+footer {
+    grid-area: footer;
+}
+/* especifidad: 001 */
+section, footer, nav, aside {
+    margin: 1em 1em;
+}
+/* especifidad: 001 */
+ul {
+    display: flex;
+}
+/* especifidad: 001 */
+video {
+    width: 15em;
+}

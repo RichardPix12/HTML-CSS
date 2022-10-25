@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+	
+	<meta name ="author" content ="Ricardo Marqués Garay"  />
+	<meta name ="description" content ="Introduccion hacia el lenguaje de programación TypeScript" />
+	<meta name ="keywords" content ="TypeScript, JavaScript, libre" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    
+
+    <title> TYPESCRIPT </title>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>TypeScript</h1>
+    </header>
+
+        <nav>
+            <ul> 
+                <li><a title = "History" accesskey = "H" href = "index.html" > Historia </a>  </li>
+                <li><a title = "Types" accesskey = "T" href = "tipos.html" > Tipos </a> </li>
+                <li><a title = "Compare" accesskey = "C" href = "comparativa.html" > Comparacion </a> </li>
+                <li><a title = "Test" accesskey = "F" href = "formulario.html" > Formulario</a> </li>
+            </ul>
+        </nav>
+
+    <aside>
+        <p>
+            <img src="multimedia/Logo.png"  alt="Logo TypeScript"  >
+            <audio src="multimedia/audio.mp3" controls></audio>
+        </p>
+    </aside>
+    
+        <main>
+            <section>
+                <h2>¿Que tipo de lenguaje es TypeScript?</h2>
+                <p>
+                    TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. 
+                    Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases. 
+                    TypeScript extiende la sintaxis de JavaScript, por tanto cualquier código JavaScript existente debería funcionar sin problemas. 
+                    Está pensado para grandes proyectos, los cuales a través de un compilador de TypeScript se traducen a código JavaScript original.
+                    En resumen, TypeScript es lo que se conoce como un "superset" de Javascript, aportando herramientas avanzadas para la programación que traen grandes beneficios a los proyectos.
+                    El compilador de TypeScript está escrito asimismo en TypeScript, compilado a JavaScript y con Licencia Apache 2.
+                    TypeScript soporta ficheros de definición que contengan información sobre los tipos de librerías JavaScript existentes, similares a los ficheros de cabeceras de C/C++ que describen la estructura de ficheros de objetos existentes.
+                    Esto permite a otros programas usar los valores definidos en los ficheros como si fueran entidades TypeScript de tipado estático.
+                </p>
+            </section>
+            <section>
+                <h2>Breves historia de TypeScript</h2>
+                <p>
+                    TypeScript fue publicado en octubre de 2012, después de dos años de desarrollo por parte de Microsoft. Poco después de su publicación, Miguel de Icaza elogió el lenguaje en sí mismo, pero criticó la falta de un IDE maduro para todas las plataformas, en ese momento Microsoft Visual Studio solo estaba disponible para Windows.
+                    En la actualidad existen múltiples editores, como Sublime Text, Vim, Emacs, Webstorm y el propio Visual Studio Code de Microsoft.
+                    TypeScript 0.9, lanzado en 2013, agregó soporte para genéricos. La versión 1.0 de TypeScript fue publicada en la conferencia de desarrolladores Build de Microsoft en 2014.        
+                    En julio de 2014, el equipo de desarrollo de TypeScript anunció un nuevo compilador que era 5 veces más rápido al actual. Inicialmente estaba alojado en CodePlex, luego lo movieron a GitHub.        
+                    El 22 de septiembre de 2016, se lanzó TypeScript 2.0. Esta versión introdujo varias características, entre ellas la capacidad de evitar la asignación a nulo de las variables.
+                </p>
+            </section>
+            <section>
+                <h2>Por que usar TypeScript</h2>
+                <p>
+                    En concreto TypeScript nos ofrece muchas de las utilidades que se necesitan en JavaScript para poder convertirlo en un lenguaje escalable, a la altura de las necesidades más exigentes. 
+                    TypeScript nos ofrece muchas de las cosas que los desarrolladores de lenguajes más tradicionales vienen usando en su día a día.
+                    Una de las diferencias fundamentales es que TypeScript es verdaderamente orientado a objetos, trayendo herramientas como la herencia, sobrecarga, etc. En resumen tiene cosas que suenan a lenguajes como Java, C++, C#, etc. Otro ejemplo clave es el del tipado estático.
+                    En el caso de TypeScript este tipado estático es opcional, pero obviamente su uso es muy recomendado y es una de las principales utilidades que nos van a facilitar mucho el trabajo y la depuración de los programas.
+                </p>
+            </section>
+        
+
+            <section>
+                <h2>Que necesitamos para usar TypeScript</h2>
+                <p>
+                    Básicamente necesitamos descargar dos programas. El primero es NodeJS, no porque necesitemos desarrollar con Node, sino porque el compilador de TypeScript está desarrollado en NodeJS.
+                    Desde el sitio de NodeJS encontramos las opciones para la instalación en nuestro sistema operativo, por medio de un típico instalador con su asistente (siguiente, siguiente…) Más información en el Manual de NodeJS.
+                    Luego necesitarás el TSC (Command-line TypeScript Compiler), la herramienta que nos permite compilar un archivo TypeScript a Javascript nativo. Este software es el que está realizado con NodeJS y su instalación se realiza vía npm con el siguiente comando:
+                </p>   
+            </section>
+    </main>
+
+    <footer>
+        <p>
+            Muchas gracias por tu tiempo.
+        </p>
+    </footer>
+
+</body>
+</html>
